@@ -39,7 +39,7 @@ body {
     margin: 5px 0;
 	text-align: left;
 }
-.price-block {
+.book .price-block{
     color: white;
     text-align: center;
     background-color: rgb(46, 204, 113);
@@ -47,3 +47,5 @@ body {
     margin-top: 10px;
     border-radius: 10px; /* Add this line */
 }
+
+
