@@ -28,10 +28,10 @@ body {
 	
 }
 
-.book h3 {
+.book h2 {
     font-size: 18px;
     margin: 10px 0 5px;
-	text-align: left;
+	text-align: left; 
 }
 
 .book p {
@@ -42,7 +42,7 @@ body {
 .price-block {
     color: white;
     text-align: center;
-    background-color: #2ecc71; /* rgb(46, 204, 113) */
+    background-color: rgb(46, 204, 113);
     font-weight: bold;
     margin-top: 10px;
 }
