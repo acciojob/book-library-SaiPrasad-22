@@ -45,4 +45,5 @@ body {
     background-color: rgb(46, 204, 113);
     font-weight: bold;
     margin-top: 10px;
+	border-radius:5px;
 }
