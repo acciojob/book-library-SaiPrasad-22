@@ -47,3 +47,12 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.price-block {
+    color: white;
+    text-align: center;
+    background-color: #2ecc71; /* rgb(46, 204, 113) */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
