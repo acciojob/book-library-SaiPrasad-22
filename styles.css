@@ -5,52 +5,45 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+	justify-content:center;
 }
 
 /* Library container */
 .book-library {
-    box-shadow: 2px 2px 5px #888888;
-    display: flex;
+    background-color: #ffffff;
+	text-align:center;
     justify-content: center;
     padding: 20px;
 }
 
 /* Book block */
 .book {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    text-align: left;
+    text-align:center;
+	margin:10px;
 }
 
-/* Image styling */
 .book img {
-    max-width: 100%;
-    height: auto;
+	text-align:center;
     border-radius: 5px;
+	
 }
 
-/* Heading styling */
-.book h2 {
+.book h3 {
     font-size: 18px;
     margin: 10px 0 5px;
+	text-align: left;
 }
 
-/* Author styling */
 .book p {
     color: #777777;
     margin: 5px 0;
+	text-align: left;
 }
 
-/* Price block styling */
 .price-block {
-    background-color: rgb(46, 204, 113);
-    color: white;
+	color:white;
+	text-align:center;
+    background-color: #2ecc71;
     font-weight: bold;
     margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
 }
