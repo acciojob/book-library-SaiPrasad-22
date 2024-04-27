@@ -9,9 +9,8 @@ body {
 
 /* Library container */
 .book-library {
-    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
 }
@@ -27,29 +26,31 @@ body {
     text-align: left;
 }
 
+/* Image styling */
 .book img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.book h3 {
+/* Heading styling */
+.book h2 {
     font-size: 18px;
     margin: 10px 0 5px;
-	text-align: left;
 }
 
+/* Author styling */
 .book p {
     color: #777777;
     margin: 5px 0;
-	text-align: left;
-	
 }
 
+/* Price block styling */
 .price-block {
-	color:white;
-	text-align:center;
-    background-color: #2ecc71;
+    background-color: rgb(46, 204, 113);
+    color: white;
     font-weight: bold;
     margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
