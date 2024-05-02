@@ -1,4 +1,4 @@
-/* 
+
 body {
     background-color: #f8f8f8;
     font-family: Arial, sans-serif;
@@ -8,6 +8,7 @@ body {
 	justify-content:center;
 }
 
+/* Library container */
 .book-library {
     background-color: #ffffff;
 	text-align:center;
@@ -15,6 +16,7 @@ body {
     padding: 20px;
 }
 
+/* Book block */
 .book {
     text-align:center;
 	margin:10px;
@@ -43,7 +45,5 @@ body {
     background-color: rgb(46, 204, 113);
     font-weight: bold;
     margin-top: 10px;
-    border-radius: 10px; /* Add this line */
+    border-radius: 5px; /* Add this line */
 }
-
- 
